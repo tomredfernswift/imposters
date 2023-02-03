@@ -1,0 +1,76 @@
+[{
+            "corporate_action_notification_identification": "acf275f9-9fff-41b8-b0c4-db42f777eb15",
+            "creation_date_time": "2022-01-29T13:55:28.770Z",
+            "notification_type": "NEWM",
+            "corporate_action_event": {
+                "corporate_action_event_identification": "DIVGLAX123",
+                "official_corporate_action_event_identification": "BI01593212345",
+                "announcement_date": "2022-01-29T13:55:28.770Z",
+                "corporate_action_event_type": "DVOP",
+                "mandatory_voluntary_event_type": "CHOS",
+                "event_processing_type": "GENL",
+                "processing_status": {
+                    "code": {
+                        "event_completeness_status": "INCO",
+                        "event_confirmation_status": "CONF"
+                    }
+                },
+                "eligible_balance_indicator": true,
+                "underlying_security": {
+                    "isin": "GB0007633421"
+                },
+                "safekeeping_account": "98-0112441-05",
+                "corporate_action_dates": [{
+                        "corporate_action_date_type": "XDTE",
+                        "date": "2023-01-15"
+                    }, {
+                        "corporate_action_date_type": "RDTE",
+                        "date": "2023-01-16"
+                    }
+                ],
+                "total_eligible_balance": {
+                    "original_and_current_face_amount": {
+                        "short_long_position": "LONG",
+                        "face_amount": "80000",
+                        "amortised_value": "79998.42"
+                    }
+                }
+            }
+        }, {
+            "corporate_action_notification_identification": "2f6db56e-f086-4028-96be-64eb95e442ad",
+            "creation_date_time": "2022-01-30T06:20:02.788Z",
+            "notification_type": "NEWM",
+            "corporate_action_event": {
+                "corporate_action_event_identification": "CORP123",
+                "official_corporate_action_event_identification": "COAF123",
+                "announcement_date": "2022-01-29T13:55:28.770Z",
+                "corporate_action_event_type": "REDM",
+                "mandatory_voluntary_event_type": "CHOS",
+                "event_processing_type": "GENL",
+                "processing_status": {
+                    "code": {
+                        "event_completeness_status": "INCO",
+                        "event_confirmation_status": "CONF"
+                    }
+                },
+                "eligible_balance_indicator": true,
+                "underlying_security": {
+                    "isin": "GB0007633421"
+                },
+                "safekeeping_account": "56344",
+                "corporate_action_dates": [{
+                        "corporate_action_date_type": "RDTE",
+                        "date": "2023-01-16"
+                    }
+                ],
+                "total_eligible_balance": {
+                    "signed_quantity": {
+                        "short_long_position": "LONG",
+                        "quantity": {
+                            "face_amount": "1000000.045"
+                        }
+                    }
+                }
+            }
+        }
+    ]
