@@ -1,5 +1,5 @@
 {
-  "corporate": {
+  "Post": {
     "_": {
       "items": 10
     },
@@ -60,7 +60,7 @@
       }
     },
     "post": {
-      "belongsTo": "corporate-action-notification"
+      "belongsTo": "Post"
     }
   }
 }
